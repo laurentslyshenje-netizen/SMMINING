@@ -1,72 +1,87 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "theme": "luma",
+  "name": "SM Mining Africa",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "primary": "#D4A017",
+    "light": "#F5C842",
+    "dark": "#A07810"
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "https://media.brand.dev/902bcc15-1504-4129-a0c4-5e949864d773.svg",
+    "dark": "https://media.brand.dev/902bcc15-1504-4129-a0c4-5e949864d773.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "/support/contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Start Investing",
+      "href": "https://smminingafrica.com/register"
     }
   },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt",
-      "claude",
-      "perplexity",
-      "mcp",
-      "cursor",
-      "vscode"
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Investment Plans",
+            "pages": [
+              "plans/overview",
+              "plans/packages",
+              "plans/returns"
+            ]
+          },
+          {
+            "group": "Trading & Signals",
+            "pages": [
+              "trading/forex-signals",
+              "trading/crypto-assets",
+              "trading/metatrader"
+            ]
+          },
+          {
+            "group": "Referral Program",
+            "pages": [
+              "referral/overview",
+              "referral/commissions"
+            ]
+          },
+          {
+            "group": "Account & Funds",
+            "pages": [
+              "account/deposits",
+              "account/withdrawals",
+              "account/security"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/faq",
+              "support/contact"
+            ]
+          }
+        ]
+      }
     ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/smminingafrica"
     }
   }
 }

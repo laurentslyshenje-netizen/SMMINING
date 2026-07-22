@@ -1,0 +1,83 @@
+{
+  "projectType": "saas",
+  "projectName": "SM Mining Africa",
+  "projectDescription": "A mining investment and trading platform that provides cryptocurrency mining plans, forex trading signals, and expert-guided investment services across Africa.",
+  "theme": "luma",
+  "primaryColor": "#D4A017",
+  "lightColor": "#F5C842",
+  "darkColor": "#A07810",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Investment Plans",
+            "pages": [
+              "plans/overview",
+              "plans/packages",
+              "plans/returns"
+            ]
+          },
+          {
+            "group": "Trading & Signals",
+            "pages": [
+              "trading/forex-signals",
+              "trading/crypto-assets",
+              "trading/metatrader"
+            ]
+          },
+          {
+            "group": "Referral Program",
+            "pages": [
+              "referral/overview",
+              "referral/commissions"
+            ]
+          },
+          {
+            "group": "Account & Funds",
+            "pages": [
+              "account/deposits",
+              "account/withdrawals",
+              "account/security"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/faq",
+              "support/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Tiered investment packages (Starter, Silver, Gold, Diamond, Platinum) with 7-day durations",
+    "Real-time forex and crypto trading signals delivered via email and SMS",
+    "MetaTrader integration for advanced charting and order execution",
+    "Multi-level referral program with commissions up to 20% across 4 tiers",
+    "Expert market analysts providing guided investment decisions",
+    "Support for major cryptocurrencies: BTC, ETH, USDT, BNB, DOGE, LTC, DASH, ETC, BCH",
+    "Proprietary capital access — trade up to $2.5M, keep 70% of profits",
+    "Africa-focused investment community"
+  ],
+  "publicApiSurface": [
+    "Account registration and KYC",
+    "Deposit and withdrawal flows (multi-currency)",
+    "Investment plan subscription and management",
+    "Trading signal subscription (email/SMS)",
+    "Referral link generation and commission tracking",
+    "MetaTrader account linking",
+    "Portfolio and returns dashboard"
+  ]
+}
